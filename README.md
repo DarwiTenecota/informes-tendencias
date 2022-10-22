@@ -36,3 +36,12 @@ DOCKER PS ---->> LISTAN LOS CONTENEDORES QUE ESTAN CORRIENDO
 -d ===> nos sirve o permite seguir ocupando la linea de comandos caso contrario no se va a poder ,ademas si usamos el proceso pasa a segundo plano 
 
 nginx ==> imagen que se descargan ,en base a esa imagen se crea el contenedor
+
+CREAR UN ARCHIVO HTML EN EL REPOSITORIO.
+
+![image](https://user-images.githubusercontent.com/91229151/197312315-546f42d9-d79f-4d91-a465-ee3763f4d008.png)
+
+
+
+
+
