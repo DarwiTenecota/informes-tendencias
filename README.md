@@ -41,6 +41,20 @@ CREAR UN ARCHIVO HTML EN EL REPOSITORIO.
 
 ![image](https://user-images.githubusercontent.com/91229151/197312315-546f42d9-d79f-4d91-a465-ee3763f4d008.png)
 
+INSERTAR CODIGO HTML DONDE APAREZCA EL NOMBRE:
+
+![image](https://user-images.githubusercontent.com/91229151/197314401-669e3fdd-be47-4c91-b25d-db9d760c9669.png)
+
+REGRESAR A PLAY WITH DOCKER
+
+INGRESAR EL COMANDO : wget /////seguido de el enlace o link del repositorio html//// https://github.com/DarwiTenecota/informes-tendencias/blob/main/index2.html
+
+![image](https://user-images.githubusercontent.com/91229151/197314650-0ab0e490-1db7-4918-8c93-af29c0cb5a0a.png)
+
+ingresar el comando ls para verificar si se descargo 
+
+
+
 
 
 
