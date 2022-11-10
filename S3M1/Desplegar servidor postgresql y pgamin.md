@@ -1,24 +1,11 @@
 INFORME DE LA PRACTICA 
 
 PASO 1: CREAR UNA CUENTA EN DOCKER.HUB.
-![image](https://user-images.githubusercontent.com/91229151/201001764-7d0f4c28-f254-41ff-be3b-7c5fc237e4f2.png)
 
-![image](https://user-images.githubusercontent.com/91229151/201001961-2fd85e4a-70cc-4d19-830c-5d24f0b71655.png)
-gopifhjfdhdfkldd
-d
-ffd
-f
-df
-fffffffffffffffffff
-gggg
+![image](https://user-images.githubusercontent.com/91229151/201003067-605fa2ce-b494-46c5-a509-75da95370fed.png)
 
+PASO 2: UNA VEZ REALIZADO EL PASO 1 NOS DIRIGIMOS A PLAY WITH DOCKER 
 
-
-g
-f
-fgg
-fgh
-g
-g
-hg
-https://github.com/DarwiTenecota/informes-tendencias.git
+![image](https://user-images.githubusercontent.com/91229151/201003284-9e2fd2a1-1deb-4638-aca5-271cd9ea3b0f.png)
+ 
+ 
