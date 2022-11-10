@@ -15,20 +15,23 @@ PASO 3: INICIAMOS PRECIONANDO START ,NOS MUESTRA UNA VENTANA DE ESTA FORMA:
 PASO 4: CREAMOS EL CONTENEDOR DE PGADMIN CON EL SIGUIENTE COMANDO 
 docker run -d --name pgadmin -p 8090:80 -e PGADMIN_DEFAULT_EMAIL=dftenecota@sudamericano.edu.ec -e PGADMIN_DEFAULT_PASSWORD=admin dpage/pgadmin4
 
-![image](https://user-images.githubusercontent.com/91229151/201004406-7c942a7e-fa21-417d-8c1e-bbb7d30651f3.png)
+![image](https://user-images.githubusercontent.com/91229151/201012682-1ad0c2e6-89d2-475c-a74f-c8e4d135b77e.png)
+
 
 PASO 5:  PRESIONAMOS ENTER PARA QUE SE INICIE LA DESCARGA 
 
-![image](https://user-images.githubusercontent.com/91229151/201004852-a0d3f537-4f88-4a61-87c9-3b05fbf4f1c7.png)
+![image](https://user-images.githubusercontent.com/91229151/201012892-a8fa217f-ac05-4880-bf9d-f4c2e150188c.png)
+
 
 PASO 6: CREAMOS EN CONTENEDOR DE POSTGRESQL CON EL SIGUIENTE COMANDO :
 docker run -d --name dbpsql -e POSTGRES_PASSWORD=medallas  -p 5432:5432 postgres
 
-![image](https://user-images.githubusercontent.com/91229151/201005239-fe798925-4b8f-4f61-afb1-c86573e6f149.png)
+![image](https://user-images.githubusercontent.com/91229151/201013020-9671bed1-d2fe-48de-82af-e0604773b1cf.png)
 
 PASO 7: PRESIONAMOS ENTER PARA QUE SE INICE LA INSTALACION 
 
-![image](https://user-images.githubusercontent.com/91229151/201005590-15840080-35d0-4830-a14c-c449a3cbb423.png)
+![image](https://user-images.githubusercontent.com/91229151/201013480-8be0091d-fca2-4807-be44-6b90cb5012f6.png)
+
 
 PASO 8: INGRESAMOS LAS CREDECIALES CREADAS ANTERIORMENTE EN LOS CONTENEDORES  PARA SU RESPECTIVA COMRPOBACION EN EL PUERTO PDADMIN  .
 
@@ -45,24 +48,27 @@ PASO 9: INICIAMOS SESION Y PODREMOS OBSERVAR ESTA VENTANA:
 PASO 10: CREAMOS LA RED EN EL CONTENEDO CON EL SIGUIENTE COMANDO : 
 docker network create --attachable redarwintenecota
 
-![image](https://user-images.githubusercontent.com/91229151/201006628-2592f251-5bad-4d61-b15e-ad8ab6a2e2c6.png)
+![image](https://user-images.githubusercontent.com/91229151/201013647-434d332c-e5bf-482f-b074-0ba90386715b.png)
+
 
 PASO 11: AGREGAMOS  EL CONTENEDOR DE POSTGRESQL CON EL SIGUIENTE COMANDO :
 
 docker network connect redarwintenecota dbpsql
 
-![image](https://user-images.githubusercontent.com/91229151/201007750-d3c18ee8-5206-4d4b-bf4a-a3dcfe1ccf9a.png)
+![image](https://user-images.githubusercontent.com/91229151/201013780-c34b117d-b207-49f9-8111-aee9d055a29b.png)
+
 
 PASO 12: AGREGAMOS  EL CONTENEDOR DE PGADMIN CON EL SIGUIENTE COMANDO :
 
 docker network connect redarwintenecota pgadmin
-![image](https://user-images.githubusercontent.com/91229151/201007858-b862e0fa-6a21-4c34-9750-9a3e6a19cc83.png)
+![image](https://user-images.githubusercontent.com/91229151/201013901-74e385b9-677a-4024-949a-43a86cb1b177.png)
+
 
 
 PASO 13 : VERIFICAMOS LOS CONTENEDORES CREADOS EN LA RED CON EL SIGUIENTE COMANDO : 
 docker inspect redarwintenecota 
 
-![image](https://user-images.githubusercontent.com/91229151/201008014-d9c9287a-e72c-4862-a041-21774594eff0.png)
+![image](https://user-images.githubusercontent.com/91229151/201014012-fcc9cc8d-e521-4717-ac9a-f846ef024db2.png)
 
 
 PASO 14: EL COMANDO UTILIZADO EN EL PASO 13 NOS MUESTRA LAS IPS ASIGNADAS A CADA CONTENEDOR 
