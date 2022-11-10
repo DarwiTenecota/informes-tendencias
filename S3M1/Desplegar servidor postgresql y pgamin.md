@@ -72,10 +72,11 @@ docker inspect redarwintenecota
 
 
 PASO 14: EL COMANDO UTILIZADO EN EL PASO 13 NOS MUESTRA LAS IPS ASIGNADAS A CADA CONTENEDOR 
+![image](https://user-images.githubusercontent.com/91229151/201014458-6499d935-ae1a-4700-9730-6fd2c481d2b1.png)
 
-![image](https://user-images.githubusercontent.com/91229151/201008261-2d64d0c8-d058-45e4-9638-f2e9651730a2.png)
 
-![image](https://user-images.githubusercontent.com/91229151/201008420-1a58266f-6383-48ae-8e8d-58723b54794e.png)
+![image](https://user-images.githubusercontent.com/91229151/201014544-cafa16fc-2bd4-4ba6-9ce6-f7f7b8d3341e.png)
+
 
 
 
