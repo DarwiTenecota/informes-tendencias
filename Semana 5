@@ -1,7 +1,7 @@
-# Pratica postgresql y pgadmin con docker compose
+ Pratica postgresql y pgadmin con docker compose
 ***
-## Informe contenedores de postgresql y pgadmin a partir de archivos de configuración YML.
-### 1.Creamos una caperta en donde se encontrara nuestro archivo YML
+ Informe contenedores de postgresql y pgadmin a partir de archivos de configuración YML.
+ 1.Creamos una caperta en donde se encontrara nuestro archivo YML
 ![a](https://user-images.githubusercontent.com/91167276/201824897-8d749c9e-c1c5-4c5f-8cdf-a3bcb7ee9d79.JPG)
 ### 2.Accedemos a nuestra carpeta que acabamos de crear utilizamos el comando cd.
 ![a1](https://user-images.githubusercontent.com/91167276/201825016-02eaf970-4047-414d-8571-dbc856e7e54f.JPG)
