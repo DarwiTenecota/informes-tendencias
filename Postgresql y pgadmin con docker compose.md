@@ -1,11 +1,14 @@
 Postgresql y pgadmin con docker compose
 
  1.Creamos una caperta en donde se encontrara nuestro archivo YML
-![a](https://user-images.githubusercontent.com/91167276/201824897-8d749c9e-c1c5-4c5f-8cdf-a3bcb7ee9d79.JPG)
+![image](https://user-images.githubusercontent.com/91229151/209200175-b1fbfc04-a769-49b4-a4ff-d087d6c10a59.png)
+
 ### 2.Accedemos a nuestra carpeta que acabamos de crear utilizamos el comando cd.
-![a1](https://user-images.githubusercontent.com/91167276/201825016-02eaf970-4047-414d-8571-dbc856e7e54f.JPG)
+![image](https://user-images.githubusercontent.com/91229151/209200296-756c0564-d722-4998-a663-fe36f3092b46.png)
+
 ### 3.Una vez dentro de la carpeta, vamos a crear el archivo en el cual encontraremso nuestros contenedores, para ello ocupamos el comando vi.
-![a2](https://user-images.githubusercontent.com/91167276/201825456-12fdc1d6-30ea-413c-9f75-5f5038e42737.JPG)
+![image](https://user-images.githubusercontent.com/91229151/209218188-eebf0065-f6a2-4ed3-9346-9e1c37e81ec1.png)
+
 ### 4.Una vez creado nuestro archivo vamos a editarlo para crear el contenedor de postgres y pgadmin nos quedaria asi.
 ### -Contenedor de Postgres
 ![a3](https://user-images.githubusercontent.com/91167276/201827028-9b5afdf3-b463-4b57-be28-b0d82179155a.JPG)
