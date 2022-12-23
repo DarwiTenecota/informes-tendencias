@@ -38,6 +38,13 @@ Se debe buscar el archivo "application.yml" o "application.properties" para edit
 
 Al ingresar al editor, se debe editar el datasource con los datos del contenedor Postgres (url, usuario y contraseña), y en el enableCors poner la dirección URL del puerto 3000.
 
+procedemos a abrir el puerto 3000 y se nos abrira una nueva ventana donde esta creado el front-end.
+
+![Captura de pantalla (26)](https://user-images.githubusercontent.com/91167276/204882519-923e3a4e-3e43-41d9-8e3b-4db72edf2595.png)
+
+Le damos en usuario y nos permite ver la informacion que se encuentra en la base de datos.
+
+![Captura de pantalla (27)](https://user-images.githubusercontent.com/91167276/204882781-971e1d79-ce26-44e7-ac20-6df92bf6a15f.png)
 
 
 
